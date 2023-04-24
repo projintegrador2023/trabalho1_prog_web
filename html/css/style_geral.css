@@ -1,0 +1,324 @@
+/* importar fonte */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400&display=swap');
+
+/* definindo configurações gerais */
+*  {
+    margin: 0px;
+	padding: 0px;
+
+	list-style: none;
+	font-family: 'Jost', sans-serif;
+	color: #ffffff;
+}
+
+/* configurações do background do body */
+body {
+	background-image: url("img/fundo.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* configurações do cabeçalho */
+header {
+	display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+	padding: 10px;
+}
+
+/* configurações da barra de menu */
+nav {
+	display: flex;
+}
+
+/* configurações da lista e links na barra de menu */
+nav li, .link_nav{
+	font-size: 25px;
+	text-decoration: none;
+
+	margin: 5px;
+	margin-left: 10px;
+	padding: 5px;
+}
+
+/* configurações do rodapé */
+footer {
+	margin-top:auto; 
+	text-align: center;
+
+	bottom: 0;
+	position: fixed;
+
+	width: 100%;
+	background-color: #005661;
+}
+
+/* configurações gerais de todas as sections */
+section {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+
+	padding: 10px;
+}
+
+/* configurações dos formulários */
+.formulario {
+	display: block;
+	width: 25em;
+
+	margin-left: auto;
+	margin-right: auto;
+	padding: 3em;
+
+	background-color: #0491a3;
+
+	border-radius: 50px;
+}
+
+/* configurações dos labels dos formulários */
+label {
+	font-size: 1.3em;
+}
+
+/* configurações dos inputs dos formulários */
+input {
+	width: 97%;
+	height: fit-content;
+
+	font-size: 1.5em;
+	color:#121212;
+
+	border-radius: 10px;
+	border: none;
+
+	margin-bottom: 15px;
+	margin-top: 8px;	
+	padding-inline-start: 0.5em;
+}
+
+/* configurações de posicionamento do botão dos formulários */
+.div_button_formulario{
+	text-align: end;
+}
+
+/* configuração do botão nos formulários */
+.button_formulario {
+	width: 10em;
+
+	font-size: 1.5em;
+
+	margin-bottom: 0.5em;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* configurações do hover do botão nos formulários */
+.button_formulario:hover {
+	background-color: #0dc0d8;
+}
+
+/* configurações gerais dos botões */
+button{
+	background-color: #005661;
+	color: #fff;
+
+	border-style: none;
+	border-radius: 10px;
+
+	padding: 8px;
+}
+
+/* configurações do hover geral para todos os botões*/
+button:hover {
+	background-color: #0491a3;
+}
+
+/* configurações para os botões da section buttons*/
+.buttons button {
+	width: 10em;
+	height: 5em;
+
+	font-size: 1.5em;
+
+	margin-bottom: 0.5em;
+
+	border-radius: 15px;
+}
+
+/* configurações para os parágrafos da section buttons*/
+.buttons p {
+	font-size: 1.6em;
+
+	padding: 50px;
+}
+
+/* configurações para a section text */
+.text{
+	width: 50%;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	font-weight: 200;
+	font-size: 1.2em;
+
+	flex-direction: column;
+	justify-content: center;
+  	align-items: center;
+}
+
+/* configurações para os parágrafos da section text */
+.text p {
+	font-size: 1.5em;
+
+	text-align: justify;
+
+	padding-bottom: 1em;
+
+}
+
+#recup_senha {
+	text-align: justify;
+	justify-content: center;
+	font-size: 20px;
+
+}
+
+#section_recup_senha {
+	margin-left: 0;
+	width: fit-content;
+	height: fit-content;
+}
+
+#link_rec_senha {
+	text-align: end	;
+}
+
+/* configurações para a section title */
+.title {
+	font-size: 2em;
+}
+
+/* configurações para a section recursos*/
+.recursos {
+	flex-wrap: wrap;
+
+	width: 70%;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* configurações para a os itens da section recursos */
+.itens_recursos{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+    align-items: center;
+	
+	background: #005661;
+
+	width: 13em;
+	height: 13em;
+
+	padding: 1em;
+	margin: 1em;
+
+	border-radius: 25px;
+
+	font-size: 1.3em;
+	text-align: center;
+
+}
+
+/* configurações do hover para os itens da section recursos */
+.itens_recursos:hover {
+	background-color: #0491a3;
+}
+
+/* configurações para as imagens dos itens da section recursos */
+.itens_recursos img {
+	width: 5em;
+	height: 5em;
+}
+
+/* configurações para a section contatos*/
+.contatos {
+	display: flex;
+	flex-direction: column;
+}
+
+/* configurações para os itens da section contatos */
+.itens_contato {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+  	align-items: center;
+	text-align: center;
+
+	background: #005661;
+
+	width: 20em;
+	height: 5em;
+
+	padding: 1em;
+	margin: 1em;
+
+	border-radius: 25px;
+
+	font-size: 1.3em;
+}
+
+/* configurações do hover para os itens da section contatos */
+.itens_contato:hover {
+	background-color: #0491a3;
+}
+
+/* configurações dos parágrafos nos itens da section contatos */
+.itens_contato p {
+	padding-left: 1em;
+}
+
+/* configuração da imagem da página sobre nós, que está na section de texto */
+#img_sobrenos{
+	width: 25em;
+	height: 20em;
+
+	border-radius: 25px;
+	border-color: #005661;
+	border-style: solid;
+	border-width: 0.5em;
+}
+
+/* configurações da div com a ficha sobre integrante do grupo */
+.ficha {
+	background: #005661;
+
+	display: flex;
+	flex-direction: column;
+    align-items: center;
+
+	text-align: justify;
+
+	width: 50em;
+	height: fit-content;
+
+	padding: 1em;
+	margin: 1em;
+
+	border-radius: 25px;
+
+	font-size: 1em;
+}
+
+/* configurações do hover da div com a ficha sobre integrante do grupo */
+.ficha:hover {
+	background-color: #0491a3;
+}
+
+/* configurações do título da div com a ficha sobre integrante do grupo */
+.titulo_ficha {
+	font-weight: 400;
+}
